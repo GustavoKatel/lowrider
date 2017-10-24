@@ -1,3 +1,5 @@
+Based on: https://github.com/iovisor/xdp-vagrant
+
 In order to try out the XDP functionality, it would be nice to have a
 playground. This could be useful if you are worried about experimental kernels
 (not sure why you're reading this, but hey...) or if you don't have the required
