@@ -7,7 +7,7 @@ end
 Vagrant.configure('2') do |config|
 
   config.vm.synced_folder "/home/gustavokatel/go/src/lowrider", "/lowrider"
-  config.vm.synced_folder "/media/Arquivos/g5/ufpb/TCC/lowrider_nf", "/lowrider_nf"
+  # config.vm.synced_folder "/media/Arquivos/g5/ufpb/TCC/lowrider_nf", "/lowrider_nf"
 
   config.vm.define "server", primary: true do |server|
     server.vm.box = "ubuntu/trusty64" # Ubuntu 14.04
